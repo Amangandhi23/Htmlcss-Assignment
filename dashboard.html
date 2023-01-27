@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hedder">
+            <img src="./images/menu-bar.svg" class="menu">
+            <img src="./images/logo.svg" class="logo">
+            <img src="./images/search-icon.svg" class="search_icon">
+            <div class="search_text">search</div>
+            <img src="./images/notification-icon.svg" class="notification">
+            <img src="./images/profile.png" class="profile_pic">
+            <div class="name_text">John Doe</div>
+            <img src="./images/select-downward.svg" class="option">
+        </div>
+
+        <div class="left_bar">
+            <div class="dashbord">
+                <img src="./images/dashboard-active.svg" class="dash_img">
+                <div class="dash_text">Dashboard</div>
+            </div>
+
+            <img src="./images/graph-default.svg" class="analysis_img">
+            <div class="analysis">Analysis</div>
+
+            <img src="./images/inbox-default.svg" class="inbox_img">
+            <div class="inbox">Inbox</div>
+
+            <img src="./images/clock-default.svg" class="history_img">
+            <div class="history">History</div>
+
+            <img src="./images/user-default.svg" class="user_img">
+            <div class="user">User</div>
+
+            <img src="./images/maintenance-default.svg" class="m_img">
+            <div class="maintenance">Maintenance</div>
+             
+            <img src="./images/setting-default.svg" class="setting_img">
+            <div class="setting">Setting</div>
+        </div>
+
+        <div class="right_bar">
+            <h1>Dashboard</h1>
+
+            <div class="p1">
+                <img src="./images/star.svg" class="img1">
+                <p class="n1">23,456</p>
+                <p class="t1">New Products</p>
+            </div>
+
+            <div class="p2">
+                <img src="./images/new-product.svg" class="img2">
+                <p class="n2">2345</p>
+                <p class="t2">Add Products</p>
+            </div>
+
+            <div class="p3">
+                <img src="./images/total-product.svg" class="img3">
+                <p class="n3">32,456</p>
+                <p class="t3">Total Products</p>
+            </div>
+
+            <div class="p4">
+                <img src="./images/dollar-filled.svg" class="img4">
+                <p class="n4">5678</p>
+                <p class="t4">Today's Sale</p>
+            </div>
+
+            <div class="p5">
+                <img src="./images/money-bag.svg" class="img5">
+                <p class="n5">23,456</p>
+                <p class="t5">Total Sale</p>
+            </div>
+
+            <div class="left_sales">
+                <h class="sale">Sale</h>
+                <P class="month_text">Weekly <br>Monthly</P>
+                <u class="year">Yearly</u>
+                <img src="./images/data-graph.png" class="line_chart">
+            </div>
+
+            <div class="right_pie">
+                <h class="sale_t1">Sales by Country</h>
+                <img src="./images/pie-chart.svg" class="pie">
+                <span class="r_dot"></span>
+                <span class="o_dot"></span>
+                <span class="g_dot"></span>
+                <span class="y_dot"></span>
+                <p class="pt1">United States of America</p>
+                <p class="pt2">Canada</p>
+                <p class="pt3">Russia</p>
+                <p class="pt4">India</p>   
+            </div>
+
+            <div class="bottom_bar">
+                <span class="invo">Invoices</span>
+                <span class="view">View All</span>
+
+                <table id="table">
+                    <thead>
+                    <th>INVOICE</th>
+                    <th>COMPANY NAME</th>
+                    <th>EMAIL</th>
+                    <th>DUE DATE</th>
+                    <th>STATUS</th>
+                    <th>AMOUNT</th>
+                </thead>
+                    <tr id="row">
+                        <td>651535</td>
+                        <td>Public Adjusting Firm</td>
+                        <td>georgia.young@example.com</td>
+                        <td>24 May, 2020</td>
+                        <td id="paid">Paid</td>
+                        <td>$47,800</td>
+                    </tr>
+    
+                    <tr id="row">
+                        <td>558612</td>
+                        <td>Other</td>
+                        <td>jessica.hanson@example.com</td>
+                        <td>24 May, 2020</td>
+                        <td id="paid">Paid</td>
+                        <td>$98,000</td>
+                    </tr>
+    
+                    <tr id="row">
+                        <td>558612</td>
+                        <td>Vendor</td>
+                        <td>alma.lawson@example.com</td>
+                        <td>8 Sep, 2020</td>
+                        <td id="paid">Paid</td>
+                        <td>$20,900</td>
+                    </tr>
+    
+                    <tr id="row">
+                        <td>558612</td>
+                        <td>Property Management Company</td>
+                        <td>kenzi.lawson@example.com</td>
+                        <td>22 Oct, 2020</td>
+                        <td id="paid">Paid</td>
+                        <td>$10,570</td>
+                    </tr>
+    
+                    <tr id="row">
+                        <td>651535</td>
+                        <td>Subcontractor Company</td>
+                        <td>jackson.graham@example.com</td>
+                        <td>1 Feb, 2020</td>
+                        <td id="failed">Failed</td>
+                        <td>$10,200</td>
+                    </tr>
+    
+                    <tr id="row">
+                        <td>651535</td>
+                        <td>Mortgage Company</td>
+                        <td>felicia.reid@example.com</td>
+                        <td>22 Oct, 2020</td>
+                        <td id="pending">Pending</td>
+                         <td>$12,600</td>
+                    </tr>
+    
+                    <tr id="row">
+                        <td>487431</td>
+                        <td>TPA</td>
+                        <td>dolores.chambers@example.com</td>
+                        <td>21 Sep, 2020</td>
+                        <td id="paid">Paid</td>
+                        <td>$11,170</td>
+                    </tr>
+    
+                    <tr id="row">
+                        <td>267400</td>
+                        <td>Fire Department</td>
+                        <td>nevaeh.simmons@example.com</td>
+                        <td>17 Oct, 2020</td>
+                        <td>Failed</td>
+                        <td>$28,000</td>
+                    </tr>
+    
+                    <tr id="row">
+                        <td>449003</td>
+                        <td>Insurance Carrier</td>
+                        <td>curtis.weaver@example.com</td>
+                        <td>21 Sep, 2020</td>
+                        <td id="paid">Paid</td>
+                        <td>$10,000</td>
+                    </tr>
+    
+    
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
