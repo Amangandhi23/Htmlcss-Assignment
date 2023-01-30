@@ -1,106 +1,139 @@
-.container{
-    background-color:#FAFAFA;
-    height:720px;
-    width: 1560px;
+body {
+    margin: 0px;
+    /* width: 1560px;
+    height: 720px; */
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
-.logo{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-}
-
-.login{
-    position: fixed;
-    top: 0px;
-    right:656px;
-}
-
 .img1{
-    position: fixed;
-    top: 72px;
-    left: 166px;
+    margin-top: 72px;
     border-radius: 50%;
-    border: 20px solid #FAFAFA;
-    height: 576px;
-    width: 576px;
-    background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
     box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    opacity: 1;
 }
-
-.img2{
-    position: fixed;
-    top: 106px;
-    height: 58px;
+.right {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 106px;
+    margin-left: 164px; */
+}
+.logo {  
     width: 272px;
+    height: 58px;
 }
-
-.text1{
-    position: fixed;
-    top: 183.17px;
-    width: 500px;
-    height: 100px;
-    font: normal normal 300 40px/47px Roboto;
+.heading_text{
+    margin-top: 19px;
+    text-align: left;
+    /* font: normal normal 300 40px/47px Roboto; */
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    /* width: 500px;
+    height: 100px; */
 }
-
-.text2{
-    position: fixed;
-    top: 315.05px;
-    font: normal normal normal 25px/33px Roboto;
-    height: 33px;
-    width: 260px;
+.color-red {
+    color: #C8242F;
 }
-
-.uname{
-    position: fixed;
-    top:371.5px;
+.login_title {
+    margin-top: 11px;
+    text-align: left;
+    /* font: normal normal normal 25px/33px Roboto; */
+    letter-spacing: 0px;
+    color: #3E3E3E; 
+}
+.right input{
+    padding-left:14px;
+    margin-bottom: 27px;
+    width: 70%;
     height: 49px;
-    width: 429px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
 }
-
-.uname ::placeholder{
-    position: fixed;
-    top: 14.63px;
-    bottom: 14.37px;
-    height: 20px;
-    width: 68px;
-
+.container{
+    margin-top: 3px;
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+    
 }
-
-.pass{
-    position: fixed;
-    top: 447.5px;
-    height: 49px;
-    width: 429px;
-}
-
-.pass ::placeholder{
-    position: fixed;
-    top: 13.63px;
-    bottom: 15.37px;
-    width: 66px;
-    height: 20px;
-    /* left: 348.5px; */
-    /* right: 14.5px; */
-}
-
-.button{
-    position: fixed;
-    top: 536.65px;
-    background-color: #C8242F;
+.login-button{
+    margin-right:26% ;
+    /* width: 138px; */
     height: 45px;
-    width: 138px;
+    background: #C8242F 0% 0% no-repeat padding-box;
     border-radius: 23px;
+    border: none;
+    color: white;
 }
 
-.forgot{
-    position: fixed;
-    top: 550px;
-    right:245.56px;
-    height: 20px;
-    width: 121px;
+.login-button span {
+    text-align: left;
+    font: Roboto;
+    color: #FFFFFF;
+
 }
 
-.register{
-    position: fixed;
-    top: 595.13px;
+@media (max-width:1050px) {
+    .right{
+        width: 60%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .img1{
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 60%;
+        height: 60%;
+    }
+    .login-button{
+        width: 21%;
+    }
+
+}
+
+@media (min-width:1051px){
+    .container-fluid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img1{
+        margin-left: 10.5%;
+        margin-right: 10.5%;
+        width:37%;
+        height:37%;
+    }
+    .heading_text{
+        width: 67%;
+    }
+    .login-button{
+        width: 21%;
+    }
+    .right{
+        margin-top: 106px;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    .login-button{
+        width: 40%;
+    }
+    .heading_text{
+        font: normal normal 300 30px/47px Roboto;
+    }
+    
+}
+
+@media (min-width:601px){
+    .container{
+        align-items: center;
+    }
+    .heading_text{
+        font: normal normal 300 42px/47px Roboto;
+    }
 }
