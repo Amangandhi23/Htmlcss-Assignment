@@ -936,7 +936,7 @@
 
 
 
-  @media(max-width:479px){
+  @media(max-width:768px){
     .dashbord_r{
         display: none;
     }
@@ -979,7 +979,163 @@
 
     .right_bar{
         margin-left: 2px ;
+        width: 80%;
+        zoom: 1.5;
     }
 
+    .Analysis{
+        width: 20%;
+    }
+
+    .colum_21{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
     
+    .colum_22{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .left_bar{
+        display: none;
+    }
+
+    .e_text{
+        display:none;
+    }
+
+    .i_text{
+        display:none;
+    }
+
+    .w_text{
+        display:none;
+    }
+
+    .s_text{
+        display:none;
+    }
+  }
+
+  @media(max-width:380px){
+    .dashbord_r{
+        display: none;
+    }
+
+    .analysis{
+        display: none;
+    }
+
+    .inbox{
+        display: none;
+    }
+
+    .history{
+        display: none;
+    }
+
+    .user{
+        display: none;
+    }
+
+    .maintenance{
+        display: none;
+    }
+
+    .setting{
+        display: none;
+    }
+    
+    .box1{
+        width: 50px;
+    }
+
+    .box{
+        width: 50px;
+    }
+
+    .left_bar{
+        width: 110px;
+    }
+
+    .right_bar{
+        margin-left: 0px ;
+        width: 50%;
+        zoom: 2;
+    }
+
+    .Analysis{
+        width: 20%;
+        zoom: 2;
+    }
+
+    .name1{
+        width: 50%;
+    }
+
+    .dropdown{
+        width: 50%;
+    }
+
+    .multiline{
+        width: 50%;
+    }
+
+    .colum_21{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+    
+    .colum_22{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .colum_31{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .colum_41{
+        display: flex;
+        flex-direction: row;
+        width: 10%;
+    }
+
+
+    .colum_51{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .ch_d{
+        width: 50%;
+    }
+
+    .paragraph{
+        width: 50%;
+    }
+
+    .e_text{
+        display: none;
+    }
+
+    .i_text{
+        display: none;
+    }
+
+    .w_text{
+        display: none;
+    }
+
+    .s_text{
+        display: none;
+    }
   }
